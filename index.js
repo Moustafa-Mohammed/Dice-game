@@ -19,4 +19,6 @@ if (playerOneDice > playerTwoDice) {
   document.querySelector("h1").textContent = "🚩Player 1 wins!";
 } else if (playerTwoDice > playerOneDice) {
   document.querySelector("h1").textContent = "Player 2 wins! 🚩";
+} else {
+  document.querySelector("h1").textContent = "🚩 Draw! 🚩";
 }
